@@ -162,10 +162,10 @@
 <body>
 <div class="navbar">
     <nav class="navbar-nav">
-        <a class="nav-link" href="<c:url value='/admin/dashboard'/>">首页</a>
-        <a class="nav-link" href="<c:url value='/admin/courses'/>">课程管理</a>
-        <a class="nav-link" href="<c:url value='/admin/students'/>">学生管理</a>
-        <a class="nav-link" href="<c:url value='/admin/scores'/>">学生成绩管理</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/admin/dashboard">首页</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/admin/courses">课程管理</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/admin/students">学生管理</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/admin/scores">成绩管理</a>
     </nav>
 </div>
 

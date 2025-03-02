@@ -1,5 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
 <html>
 <head>
     <title>Student System</title>
@@ -21,7 +21,7 @@
         .navbar {
             background-color: var(--primary-color);
             padding: 1rem 2rem;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         .navbar-nav {
@@ -42,7 +42,7 @@
         }
 
         .nav-link:hover {
-            background-color: rgba(255,255,255,0.1);
+            background-color: rgba(255, 255, 255, 0.1);
             transform: translateY(-2px);
         }
 
@@ -80,7 +80,7 @@
         .author-footer {
             margin-top: 4rem;
             padding: 1.5rem 0;
-            border-top: 1px solid rgba(0,0,0,0.1);
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
             display: flex;
             align-items: center;
             gap: 1rem;
@@ -96,16 +96,16 @@
             display: inline-flex;
             align-items: center;
             gap: 0.5rem;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 <body>
 <div class="navbar">
     <nav class="navbar-nav">
-        <a class="nav-link" href="<c:url value='/user/dashboard'/>">首页</a>
-        <a class="nav-link" href="<c:url value='/user/scores'/>">成绩查询</a>
-        <a class="nav-link" href="<c:url value='/user/info'/>">学生信息</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/user/dashboard">首页</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/user/scores">成绩查询</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/user/info">">学生信息</a>
     </nav>
 </div>
 <div class="content">

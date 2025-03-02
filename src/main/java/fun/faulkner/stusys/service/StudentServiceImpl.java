@@ -1,6 +1,5 @@
 package fun.faulkner.stusys.service;
 
-import fun.faulkner.stusys.dao.StudentDao;
 import fun.faulkner.stusys.dao.StudentDaoImpl;
 import fun.faulkner.stusys.entity.Student;
 import java.util.List;

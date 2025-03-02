@@ -108,9 +108,9 @@
 <body>
 <div class="navbar">
     <nav class="navbar-nav">
-        <a class="nav-link" href="<c:url value="/user/dashboard"/>">首页</a>
-        <a class="nav-link" href="<c:url value='/user/scores'/>">成绩查询</a>
-        <a class="nav-link" href="<c:url value="/user/info"/>">学生信息</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/user/dashboard">首页</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/user/scores">成绩查询</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/user/info">">学生信息</a>
     </nav>
 </div>
 

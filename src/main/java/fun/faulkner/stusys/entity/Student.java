@@ -1,7 +1,5 @@
 package fun.faulkner.stusys.entity;
 
-import java.time.LocalDateTime;
-
 public class Student {
     private final int id;
     private final String studentId;
@@ -61,8 +59,7 @@ public class Student {
         this.age = age;
     }
 
-    public void setGender(String gender)
-    {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 

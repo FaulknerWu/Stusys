@@ -1,8 +1,6 @@
 package fun.faulkner.stusys.controller;
 
 import fun.faulkner.stusys.dao.StudentDaoImpl;
-import fun.faulkner.stusys.entity.Course;
-import fun.faulkner.stusys.entity.Score;
 import fun.faulkner.stusys.entity.Student;
 import fun.faulkner.stusys.entity.User;
 import fun.faulkner.stusys.service.StudentService;

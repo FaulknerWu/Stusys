@@ -1,7 +1,5 @@
 package fun.faulkner.stusys.entity;
 
-import fun.faulkner.stusys.util.PasswordUtil;
-
 public class User {
     private final int id;
     private String username;

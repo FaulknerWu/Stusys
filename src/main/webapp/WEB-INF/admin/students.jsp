@@ -28,7 +28,7 @@
         .navbar {
             background-color: var(--primary-color);
             padding: 1rem 2rem;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         .navbar-nav {
@@ -49,7 +49,7 @@
         }
 
         .nav-link:hover {
-            background-color: rgba(255,255,255,0.1);
+            background-color: rgba(255, 255, 255, 0.1);
             transform: translateY(-2px);
         }
 
@@ -87,7 +87,7 @@
         .author-footer {
             margin-top: 4rem;
             padding: 1.5rem 0;
-            border-top: 1px solid rgba(0,0,0,0.1);
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
             display: flex;
             align-items: center;
             gap: 1rem;
@@ -103,7 +103,7 @@
             display: inline-flex;
             align-items: center;
             gap: 0.5rem;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         .container {
@@ -242,10 +242,10 @@
 <body>
 <div class="navbar">
     <nav class="navbar-nav">
-        <a class="nav-link" href="<c:url value='/admin/dashboard'/>">首页</a>
-        <a class="nav-link" href="<c:url value='/admin/courses'/>">课程管理</a>
-        <a class="nav-link" href="<c:url value='/admin/students'/>">学生管理</a>
-        <a class="nav-link" href="<c:url value='/admin/scores'/>">学生成绩管理</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/admin/dashboard">首页</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/admin/courses">课程管理</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/admin/students">学生管理</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/admin/scores">成绩管理</a>
     </nav>
 </div>
 <div class="container">
